@@ -1,0 +1,35 @@
+|bcdDecoder
+A <= and1.DB_MAX_OUTPUT_PORT_TYPE
+Entrada1 => not1.IN0
+Entrada1 => or2.IN0
+Entrada1 => or4.IN1
+Entrada1 => or5.IN1
+Entrada1 => or7.IN1
+Entrada2 => or1.IN1
+Entrada2 => or2.IN3
+Entrada2 => not2.IN0
+Entrada2 => or6.IN1
+Entrada2 => or7.IN0
+Entrada2 => or9.IN1
+Entrada2 => or13.IN1
+Entrada2 => or14.IN0
+Entrada4 => not4.IN0
+Entrada4 => or6.IN0
+Entrada4 => or10.IN2
+Entrada4 => or13.IN2
+Entrada3 => or2.IN1
+Entrada3 => or3.IN0
+Entrada3 => not3.IN0
+Entrada3 => or5.IN2
+Entrada3 => or6.IN3
+Entrada3 => or10.IN0
+Entrada3 => or11.IN1
+Entrada3 => or13.IN0
+B <= and2.DB_MAX_OUTPUT_PORT_TYPE
+C <= or5.DB_MAX_OUTPUT_PORT_TYPE
+D <= and3.DB_MAX_OUTPUT_PORT_TYPE
+E <= and4.DB_MAX_OUTPUT_PORT_TYPE
+F <= and5.DB_MAX_OUTPUT_PORT_TYPE
+G <= and6.DB_MAX_OUTPUT_PORT_TYPE
+
+
